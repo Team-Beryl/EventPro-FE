@@ -8,11 +8,12 @@ NAVLINKS: [
     name: "Create Event",
     path: "/create"
 },
+
 {
     name: "Find Event",
-    path: "/event"
+    path: "/events"
 },
-
+ 
 
 ]
 
