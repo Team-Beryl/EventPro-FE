@@ -8,6 +8,8 @@ const Landing = () => {
       <Hero/>  
       <About/>
       <Reviews/>
+      
+      
     </div>
   )
 }
