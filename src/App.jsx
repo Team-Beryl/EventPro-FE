@@ -5,32 +5,44 @@ import Rootlayout from './layouts/rootlayout'
 import Landing from './pages/landing'
 import Createevents from './pages/createevents'
 import Findevents from './pages/findevents'
+import Login from './pages/loginpage'
+import SignUp from './pages/signuppage'
 
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Rootlayout/>,
+      element: <Rootlayout />,
       children: [
         {
           index: true,
-          element: <Landing/>
+          element: <Landing />
         },
 
         {
-         path: "create",
-          element: <Createevents/>
+          path: "create",
+          element: <Createevents />
         },
 
         {
           path: "events",
-          element: <Findevents/>
+          element: <Findevents />
         },
-       
-        
 
-       
+        {
+          path: "login",
+          element: <Login />
+        },
+
+        {
+          path: "signup",
+          element: <SignUp />
+        }
+
+
+
+
 
 
 
@@ -43,7 +55,7 @@ function App() {
   ])
 
   return (
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   )
 }
 

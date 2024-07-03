@@ -15,6 +15,7 @@ NAVLINKS: [
     name: "Find Event",
     path: "/events"
 },
+
  
 
     ],
@@ -50,6 +51,24 @@ NAVLINKS: [
             description:"EventPro is my go-to for organizing event. It's intuitive,efficient and covers everything from invites to RSVPs seamlessly.Highly Recommended!",
        
         },
+    ],
+
+    BUTTON: [
+
+      {
+        name: "",
+        path: "/login"
+      },
+      {
+        name: "",
+        path: "/signup"
+      },
+      {
+        name: "",
+        path: "/events"
+      },
+      
+
     ]
 
 }

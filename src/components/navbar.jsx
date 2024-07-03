@@ -6,9 +6,9 @@ import E from "../constants"
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between px-32 py-10 fixed w-full left-0 top-0  z-50">
-            <img className="w-48 mb-10" src={logo6} alt="logo" />
-            <div className="flex gap-x-12 text-[18px] text-white pt-10 " >
+        <div className="flex justify-between py-5 px-32 items-center fixed w-full left-0 top-0  z-50">
+            <img className="w-20" src={logo6} alt="logo" />
+            <div className="flex gap-x-12 text-[18px] text-white  " >
                 {
                     E.NAVLINKS.map(
                         (item, index) => {
