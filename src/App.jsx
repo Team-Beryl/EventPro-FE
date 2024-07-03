@@ -27,6 +27,8 @@ function App() {
           path: "events",
           element: <Findevents/>
         },
+       
+        
 
        
 

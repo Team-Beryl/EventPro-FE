@@ -1,20 +1,21 @@
 import { reviewFive, reviewFour, reviewOne, reviewThree, reviewTwo } from "../assets"
 
 const E = {
-    NAVLINKS: [
-        {
-            name: "Home",
-            path: "/"
-        },
-        {
-            name: "Create Event",
-            path: "/create"
-        },
-        {
-            name: "Find Event",
-            path: "/event"
-        },
+NAVLINKS: [
+{
+    name: "Home",
+    path: "/"
+},
+{
+    name: "Create Event",
+    path: "/create"
+},
 
+{
+    name: "Find Event",
+    path: "/events"
+},
+ 
 
     ],
     REVIEWS: [
