@@ -7,6 +7,10 @@ import Createevents from './pages/createevents'
 import Findevents from './pages/findevents'
 import Login from './pages/loginpage'
 import SignUp from './pages/signuppage'
+import Wedding from './pages/wedding'
+import Tech from './pages/tech'
+import Music from './pages/music'
+import Conference from './pages/conference'
 
 
 function App() {
@@ -38,7 +42,37 @@ function App() {
         {
           path: "signup",
           element: <SignUp />
+        },
+
+        {
+          path: "find",
+          element: <Findevents />
+        },
+
+        {
+          path: "marriage",
+          element: <Wedding />
+
+        },
+
+        {
+          path: "tec",
+          element: <Tech />
+
+        },
+
+        {
+          path: "muse",
+          element: <Music />
+
+        },
+
+        {
+          path: "conf",
+          element: <Conference />
+
         }
+
 
 
 
@@ -60,5 +94,8 @@ function App() {
 }
 
 export default App
+
+
+
 
 

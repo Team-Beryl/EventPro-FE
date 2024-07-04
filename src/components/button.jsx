@@ -7,7 +7,7 @@ const Button = ({ text, onClick }) => {
 
 
     <>
-    <button className="rounded-full bg-black px-10 w-fit h-10 text-white hover:bg-white hover:text-black" onClick={onClick}>
+    <button className="rounded-full bg-[#5F181E] px-10 w-fit h-10 text-white hover:bg-white hover:text-black" onClick={onClick}>
       {text}</button>
 
     

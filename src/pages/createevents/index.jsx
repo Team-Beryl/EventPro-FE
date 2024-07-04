@@ -4,13 +4,13 @@ import { Celebrity } from "../../assets"
 
 const Createevents = () => {
   return (
-    <div className="flex w-full justify-center items-center gap-40 bg-[#612836]  mt-28 ">
+    <div className="flex w-full justify-center items-center gap-40 bg-[#FCDEB0]  mt-28 ">
 
-      <div className="flex flex-col gap-7">
-        <h2 className="font-bold text-[32px]">Create an event with EVENTPRO</h2>
-        <p className="text-[14px] font-semibold">Answer a few questions about your event to craete an event with Us</p>
+      <div className="flex flex-col gap-4">
+        <h2 className="font-bold text-[32px] pt-12">Create an event with EVENTPRO</h2>
+        <p className="text-[18px] ">Answer a few questions about your event to create an event with Us</p>
 
-        <h3 className="text-[18px]">What is the name of your event?</h3>
+        <h3 className="text-[18px] font-semibold">What is the name of your event?</h3>
         <p>This will be your event's title.Your title will be use to help create your event's summary.</p>
 
 
@@ -24,10 +24,10 @@ const Createevents = () => {
 
         </label>
 
-        <h3 className="text-[18px]">When does it start and end?</h3>
+        <h3 className="text-[18px] font-semibold">When does it start and end?</h3>
         <div>
 
-          <form className="flex gap-8">
+          <form className="space-x-6 pb-6">
             <span>
               <label htmlFor="date">Date</label>
               <input className="w-36 h-8 rounded border-black" id="date" type="date" />
@@ -43,7 +43,7 @@ const Createevents = () => {
 
           </form>
 
-          <h3 className="text-[18px]">Where will the event be?</h3>
+          <h3 className="text-[18px] font-semibold pb-6">Where will the event be?</h3>
 
           <label className="relative block">
 
@@ -51,11 +51,11 @@ const Createevents = () => {
             <span className="absolute inset-y-0 left-0 flex items-center pl-2">
               <svg className="h-5 w-5 fill-slate-300" viewBox="0 0 20 20"></svg>
             </span>
-            <input className="placeholder:italic placeholder:text-slate-400 block bg-white w-150 border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="location" type="text" name="search" />
+            <input className="placeholder:italic placeholder:text-slate-400 block bg-white w-150 border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="location" type="text" name="search pt-4" />
 
           </label>
 
-          <h3 className="text-[18px]">What's the rate for the event?</h3>
+          <h3 className="text-[18px] font-semibold pb-9 pt-3 ">What's the rate for the event?</h3>
           <label className="relative block">
 
             <span className="sr-only">Ticket Price</span>
@@ -68,12 +68,12 @@ const Createevents = () => {
 
 
           <form className="flex items-center space-x-6">
-            <div className="flex">
+            <div className="flex pt-5">
               <ArrowUpTrayIcon />
               <h3>Upload Flyer</h3>
             </div>
             <label className="block">
-              <span className="sr-only">Choose profile photo</span>
+              <span className="sr-only ">Choose profile photo</span>
               <input type="file" className="block w-full text-sm text-slate-500
       file:mr-4 file:py-2 file:px-4
       file:rounded-full file:border-0
@@ -88,10 +88,10 @@ const Createevents = () => {
 
         </div>
 
-        <div className="flex flex-row gap-7">
+        <div className="flex flex-row gap-7 pb-14">
 
           <Button text="Create Event" />
-          <Button text="Delete Event" />
+        
         </div>
 
 

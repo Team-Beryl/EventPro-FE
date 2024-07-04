@@ -14,6 +14,9 @@ import reviewThree from "./img/george.png"
 import reviewFour from "./img/mama.png"
 import reviewFive from "./img/john.png"
 import Celebrity from "./img/Celebrity.jpg"
+import praise from "../assets/img/praise.jpeg"
+import twox from "../assets/img/twox.jpeg"
+import vicc from "../assets/img/vicc.jpeg"
 
 
-export {logo6, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity};
+export {logo6, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};
