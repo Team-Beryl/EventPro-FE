@@ -6,7 +6,6 @@ import fimg3 from "./img/fimg3.jpg"
 import fimg4 from "./img/fimg4.jpg"
 import fimg5 from "./img/fimg5.jpg"
 import fimg6 from "./img/fimg6.jpg"
-
 import aboutimg from "./img/about-img.webp"
 import reviewOne from "./img/bezz.png"
 import reviewTwo from "./img/eve.png"
