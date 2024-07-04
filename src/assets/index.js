@@ -17,6 +17,8 @@ import Celebrity from "./img/Celebrity.jpg"
 import praise from "../assets/img/praise.jpeg"
 import twox from "../assets/img/twox.jpeg"
 import vicc from "../assets/img/vicc.jpeg"
+import woman from "./img/woman.jpg"
 
 
-export {logo6, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};
+
+export { logo6, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};

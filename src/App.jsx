@@ -38,12 +38,11 @@ function App() {
           path: "login",
           element: <Login />
         },
-
+    
         {
           path: "signup",
           element: <SignUp />
         },
-
         {
           path: "find",
           element: <Findevents />
@@ -82,9 +81,12 @@ function App() {
 
 
 
+
+
       ]
     }
-
+    
+    
 
   ])
 
