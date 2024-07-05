@@ -17,7 +17,11 @@ import praise from "../assets/img/praise.jpeg"
 import twox from "../assets/img/twox.jpeg"
 import vicc from "../assets/img/vicc.jpeg"
 import woman from "./img/woman.jpg"
+import band from "./img/band.webp"
+import marriage from "./img/marriage.jpg"
+import meeting from "./img/meeting.jpg"
+import beach from "./img/beach.jpg"
 
 
 
-export { logo6, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};
+export { logo6, marriage, beach, meeting,band, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};

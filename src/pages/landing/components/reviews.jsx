@@ -38,11 +38,11 @@ const Reviews = () => {
                 <p className="font-bold pt-4">{review.name}</p>
                 <p className="w-2/5">{review.description}</p>
                 <div className='flex'>
-                <StarIcon width={20}/>
-                <StarIcon width={20}/>
-                <StarIcon width={20}/>
-                <StarIcon width={20}/>
-                <StarIcon width={20}/>
+                <StarIcon className='fill-yellow-400' width={20}/>
+                <StarIcon className='fill-yellow-400' width={20}/>
+                <StarIcon className='fill-yellow-400' width={20}/>
+                <StarIcon className='fill-yellow-400' width={20}/>
+                <StarIcon className='fill-yellow-400' width={20}/>
                 </div>
               
 

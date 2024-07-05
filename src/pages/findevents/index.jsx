@@ -12,7 +12,7 @@ const Findevents = () => {
   return (
     <div className="mt-40 px-40 flex flex-col gap-20 pb-20">
 
-      <h1 className="font-bold text-2xl text-[#5F181E] text-center">BROWSE EVENTS</h1>
+      <h1 className="font-bold text-3xl text-[#5F181E] text-center">BROWSE EVENTS</h1>
 
       <div className=" grid grid-cols-2 justify-center items-center gap-11 ">
         <FindEventCard

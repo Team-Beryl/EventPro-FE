@@ -11,7 +11,7 @@ const About = () => {
 
         {/* <span className='text-[#830900c9] mt-16 font-bold  text-xl'>About EventPro</span> */}
 
-        <h3 className='text-3xl  font-bold'>WELCOME TO EVENTPRO</h3>
+        <h3 className='text-3xl  text-[#5F181E]  font-bold'>WELCOME TO EVENTPRO</h3>
 
         <h3 >Explore a variety of events, from music concerts and festivals to workshops. <br />Easily find and book tickets to an exciting event happening around you.</h3>
 
