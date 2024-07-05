@@ -21,7 +21,7 @@ const Navbar = () => {
 
             </div>
 
-            <div className="flex gap-x-12 text-[18px] text-white  " >
+            <div className="flex gap-x-12 text-[18px] text-white font-[LibreBaskerville] " >
                 {
                     E.NAVLINKS.map(
                         (item, index) => {

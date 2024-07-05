@@ -17,6 +17,10 @@ import praise from "../assets/img/praise.jpeg"
 import twox from "../assets/img/twox.jpeg"
 import vicc from "../assets/img/vicc.jpeg"
 import woman from "./img/woman.jpg"
+import band from "./img/band.webp"
+import marriage from "./img/marriage.jpg"
+import meeting from "./img/meeting.jpg"
+import beach from "./img/beach.jpg"
 import musicvid from "../assets/img/musicvid.mp4"
 import save from "../assets/img/save.jpeg"
 import techm from "../assets/img/techm.jpeg"
@@ -35,4 +39,4 @@ import conferencevid from "../assets/img/conferencevid.mp4"
 
 
 
-export { logo6, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc, musicvid,save,techm,wedding1,wedding2,tech1,tech2,conf1,conf3,conf2,wedvid,techvid,conferencevid};
+export { logo6, marriage, beach, meeting,band, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc, musicvid,save,techm,wedding1,wedding2,tech1,tech2,conf1,conf3,conf2,wedvid,techvid,conferencevid};

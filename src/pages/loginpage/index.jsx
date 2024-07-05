@@ -3,7 +3,7 @@ import { woman } from "../../assets"
 
 const Login = () => {
   return (
-    <div className=" flex justify-evenly gap-4 place-content-center pt-[120px] bg-[#ECEFF7] w-full h-[80vh]">
+    <div className=" flex justify-evenly gap-4 place-content-center pt-[190px] bg-[#ECEFF7] w-full h-[100vh]">
       
 
       <div className="flex flex-col gap-6">
@@ -21,8 +21,12 @@ const Login = () => {
 
         <button className="w-72 border border-slate-300 rounded-md h-10 shadow-sm bg-[#5F181E] text-center text-white text-[15px]">Log in</button>
       
-        <div className=" relative border-t-2 w-72 mt-5 gap-2 ">
-          <h3 className="absolute border rounded-full w-10 h-7  border-white text-center top-[-20px] right-[50%]">or</h3>
+        <div className=" relative w-72 mt-5 gap-2 ">
+          <h3 className="absolute border rounded-full w-10 h-7 border-red-800 text-center top-[-20px] right-[50%] bottom-10">or</h3>
+        </div>
+
+        <div className="text-center border text-1xl border-red-800 bg-[#FFFFFF] h-8">
+          Email me a link
         </div>
       </div>
       
