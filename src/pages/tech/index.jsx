@@ -13,7 +13,7 @@ const Tech = () => {
 
   // Define a function to fetch events
   const getEvents = async () => {
-    const response = await axios.get(`${BASE_URL}/events?filter={"category":"Wedding"}&limit=3`);
+    const response = await axios.get(`${BASE_URL}/events?filter={"category":"Tech"}&limit=3`);
     if (response.status === 200) {
       setEvents(response.data);
     } else {
@@ -26,7 +26,7 @@ const Tech = () => {
     getEvents();
   }, []);
   return (
-    <div>
+    <div className='bg-[#ECEFF7] pr-10'>
       
       <div>
 

@@ -10,7 +10,7 @@ const Conference = () => {
 
   // Define a function to fetch events
   const getEvents = async () => {
-    const response = await axios.get(`${BASE_URL}/events?filter={"category":"Music"}&limit=3`);
+    const response = await axios.get(`${BASE_URL}/events?filter={"category":"Conference"}&limit=3`);
     if (response.status === 200) {
       setEvents(response.data);
     } else {
@@ -23,7 +23,7 @@ const Conference = () => {
     getEvents();
   }, []);
   return (
-    <div>
+    <div className='bg-[#ECEFF7] pr-10'>
 
       <div>
         <video className='w-[100vw]' autoPlay loop src={conferencevid}></video>
