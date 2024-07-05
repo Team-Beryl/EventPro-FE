@@ -35,7 +35,7 @@ const Tech = () => {
 
 
 
-      <div className="grid grid-cols-3 mt-40 pl-10 text-wrap pb-24 ">
+      <div className="grid grid-cols-3 mt-40 pl-10 text-wrap pb-24 gap-10 ">
 
         {
           events.map(
