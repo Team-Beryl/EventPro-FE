@@ -17,7 +17,22 @@ import praise from "../assets/img/praise.jpeg"
 import twox from "../assets/img/twox.jpeg"
 import vicc from "../assets/img/vicc.jpeg"
 import woman from "./img/woman.jpg"
+import musicvid from "../assets/img/musicvid.mp4"
+import save from "../assets/img/save.jpeg"
+import techm from "../assets/img/techm.jpeg"
+import conf1 from "../assets/img/conf1.jpg"
+import conf2 from "../assets/img/conf2.jpg"
+import conf3 from "../assets/img/conf3.jpg"
+import wedding1 from "../assets/img/wedding1.jpg"
+import wedding2 from "../assets/img/wedding2.jpg"
+import tech1 from "../assets/img/tech1.jpg"
+import tech2 from "../assets/img/tech2.jpeg"
+import wedvid from "../assets/img/wedvid.mp4"
+import techvid from "../assets/img/techvid.mp4"
+import conferencevid from "../assets/img/conferencevid.mp4"
 
 
 
-export { logo6, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc};
+
+
+export { logo6, woman, pexels, fimg1, fimg2, fimg3, fimg4, fimg5, fimg6, aboutimg, reviewOne, reviewTwo, reviewThree, reviewFour, reviewFive, Celebrity, praise, twox, vicc, musicvid,save,techm,wedding1,wedding2,tech1,tech2,conf1,conf3,conf2,wedvid,techvid,conferencevid};

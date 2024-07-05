@@ -1,21 +1,27 @@
+import Button from "./button"
 
 
-import React from 'react'
-
-const ListCard = (image, name, price,  location,date,time,discription) => {
+const ListCard = (props) => {
+    //    const name, price, flier, date, description} = props.event
     return (
-        <div>
+        <div className="bg-[#ECEFF7]">
 
-            <img className='w-full' src={image} alt={name} />
-            <p>{name}</p>
-            <h3>{price}</h3>
-            <p>{location}</p>
-            <p>{date}</p>
-            <p>{time}</p>
-            <p>{discription}</p>
+            <div>
 
+                <img className='w-full' src={`https://savefiles.org/${props.event.flier}?shareable_link=245`} alt={props.event.name} />
+                <p className="font-bold">{props.event.name}</p>
+                <h3>{props.event.price}</h3>
+                <p>{props.event.location}</p>
+                <p>{props.event.date}</p>
+                <p>{props.event.description}</p>
 
+                {props.event.flier}
+
+            </div>
+
+            <Button text="Delete Event"/>
         </div>
+
     )
 }
 

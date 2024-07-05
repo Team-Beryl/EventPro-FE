@@ -90,7 +90,7 @@ const Createevents = () => {
 
         <div className="flex flex-row gap-7 pb-14">
 
-          <Button text="Create Event" />
+          <Button text="Create Event"  />
         
         </div>
 
