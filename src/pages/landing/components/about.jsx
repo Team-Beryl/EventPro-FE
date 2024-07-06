@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom"
 const About = () => {
   const navigate = useNavigate()
   return (
-    <div className='flex py-20  '>
-      <div className='flex flex-col gap-y-10 pl-[80px] pt-24 text-justify'>
+    <div className='flex py-20 overflow-hidden  '>
+      <div className='flex flex-col gap-y-10 pl-[80px] pt-24 text-justify '>
 
         {/* <span className='text-[#830900c9] mt-16 font-bold  text-xl'>About EventPro</span> */}
 

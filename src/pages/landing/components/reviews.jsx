@@ -34,7 +34,7 @@ const Reviews = () => {
             E.REVIEWS.map((review, index) => {
               return <SwiperSlide className="flex flex-col items-center justify-center pb-24 pt-10 gap-y-5" key={index}>
 
-                <img className="w-40 border-solid" src={review.img} alt="image" />
+                <img className="w-40 border-solid overflow-hidden" src={review.img} alt="image" />
                 <p className="font-bold pt-4">{review.name}</p>
                 <p className="w-2/5">{review.description}</p>
                 <div className='flex'>

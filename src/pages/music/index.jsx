@@ -26,7 +26,7 @@ const Music = () => {
     }, []);
     return (
 
-        <div className="bg-[#ECEFF7] pr-10">
+        <div className="bg-[#ECEFF7] ">
 
 
             <div>

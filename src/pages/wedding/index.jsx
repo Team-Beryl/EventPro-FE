@@ -31,7 +31,7 @@ const Wedding = () => {
         <video className="w-[100vw]" autoPlay loop src={wedvid}></video>
       </div>
 
-      <div className="grid grid-cols-3 mt-40 pl-10 text-wrap pb-24 gap-5 ">
+      <div className="grid grid-cols-3 mt-40 pl-10 text-wrap pb-24 gap-5">
 
       {
                     events.map(

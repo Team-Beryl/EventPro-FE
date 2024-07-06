@@ -8,7 +8,7 @@ import { MagnifyingGlassCircleIcon, MagnifyingGlassIcon } from "@heroicons/react
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between py-5 px-32 items-center fixed w-full left-0 top-0  z-50 bg-[#5F181E]">
+        <div className="flex justify-between py-5 px-32 items-center fixed w-full left-0 top-0  z-50 bg-[#5f181e48]">
             <img className="w-20" src={logo6} alt="logo" />
 
             <div className="flex items-center gap-x-4 bg-white border-none rounded-[10px] border-[2px]" >

@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom"
-import { pexels } from "../../../assets"
+import {woman } from "../../../assets"
 import Button from "../../../components/button"
 
 const Hero = () => {
   const navigate = useNavigate()
   return (
-    <div className="relative min-h-screen w-full">
-      <img className=" w-full object-cover h-screen" src={pexels} alt="hero" />
+    <div className="relative min-h-screen w-full ">
+      <img className=" w-full object-cover h-screen" src={woman} alt="hero" />
 
       <div className="absolute top-0 items-center justify-center flex flex-col gap-y-10 w-full h-full bg-black/60 pt-40">
        
